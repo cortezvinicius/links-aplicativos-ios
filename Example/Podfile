@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'links_Aplicativos_Example' do
+  pod 'links_Aplicativos', :path => '../'
+
+  target 'links_Aplicativos_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
