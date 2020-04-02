@@ -1,0 +1,6 @@
+framework module links_Aplicativos {
+  umbrella header "links_Aplicativos-umbrella.h"
+
+  export *
+  module * { export * }
+}

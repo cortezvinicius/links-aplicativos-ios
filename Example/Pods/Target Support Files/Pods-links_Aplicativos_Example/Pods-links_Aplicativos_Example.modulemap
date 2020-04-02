@@ -1,0 +1,6 @@
+framework module Pods_links_Aplicativos_Example {
+  umbrella header "Pods-links_Aplicativos_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

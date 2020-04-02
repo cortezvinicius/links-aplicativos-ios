@@ -1,0 +1,22 @@
+{
+  "name": "links_Aplicativos",
+  "version": "0.1.0",
+  "summary": "A short description of links_Aplicativos.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cortezvinicius/links_Aplicativos",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cortezvinicius": "cortezvinicius881@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/cortezvinicius/links_Aplicativos.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "links_Aplicativos/Classes/**/*"
+}
