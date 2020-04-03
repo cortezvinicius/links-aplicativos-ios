@@ -26,10 +26,10 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 
 
   * [Swift](#swift)
-  * [Objective-C](#obj-C)
+  * [Objective-C](#Objective-C)
 
 
-## Swift
+# Swift
 
 
 extender a Classe
@@ -46,4 +46,4 @@ linkAplicativos.abrirEmail("email", "titulo", "texto")
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
 linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
-## Objective-C
+# Objective-C
