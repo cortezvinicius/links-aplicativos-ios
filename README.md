@@ -58,18 +58,8 @@ linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 # Objective-C
 
+Entender Classe
+
 ````Objective-C
-
-
-
-
-
-
-
-
-
-
-
-
-
+LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc]init];
 ````
