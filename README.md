@@ -34,37 +34,26 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 
 extender a Classe
 ````Swift
-
 let linkAplicativos = LinksAplicativos()
-
 ````
 Usar Metodos
 ````Swift
-
 linkAplicativos.abrirPaginaWeb("url")
-
 ````
 
 ````Swift
-
 linkAplicativos.abrirWhatsapp("numero", "mensagem")
-
 ````
 
 ````Swift
-
 linkAplicativos.abrirEmail("email", "titulo", "texto")
-
 ````
 
 ````Swift
-
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
-
 ````
 
 ````Swift
-
 linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 # Objective-C
