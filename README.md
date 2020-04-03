@@ -25,7 +25,7 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 ## Como Usar
 
 
-  * [Swift](#swift)
+  * [Swift](https://github.com/cortezvinicius/links-aplicativos-ios#swift)
   * [Objective-C](#Objective-C)
 
 
