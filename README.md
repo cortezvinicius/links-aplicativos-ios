@@ -40,8 +40,16 @@ let linkAplicativos = LinksAplicativos()
 ````
 Usar Metodos
 ````Swift
+
 linkAplicativos.abrirPaginaWeb("url")
+
+````
+
+````Swift
+
 linkAplicativos.abrirWhatsapp("numero", "mensagem")
+
+````
 linkAplicativos.abrirEmail("email", "titulo", "texto")
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
 linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
