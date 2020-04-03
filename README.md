@@ -63,3 +63,22 @@ Estender Classe
 ````Objective-C
 LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc]init];
 ````
+usar Metodos
+
+````Objective-C
+[linksAplicativos abrirPaginaWeb:@"url"];
+````
+
+````Objective-C
+[linksAplicativos abrirChamadaTelefone:@"numero"];
+````
+````Objective-C
+[linksAplicativos abrirWhatsapp:@"numero" :@"texto"];
+````
+````Objective-C
+[linksAplicativos abrirMapas:@"nome local" :@"latitude" :@"longitude"];
+````
+````Objective-C
+[linksAplicativos abrirEmail:@"email" :@"titulo" :@"texto"];
+````
+
