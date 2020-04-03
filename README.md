@@ -22,11 +22,11 @@ pod 'links_Aplicativos'
 pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplicativos-ios.git'
 ````
 
-## Como Usar
+# Como Usar
 
 
   * [Swift](https://github.com/cortezvinicius/links-aplicativos-ios#swift)
-  * [Objective-C](#Objective-C)
+  * [Objective-C](https://github.com/cortezvinicius/links-aplicativos-ios#Objective-C)
 
 
 # Swift
