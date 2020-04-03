@@ -10,7 +10,7 @@ Para executar o projeto de exemplo, clone o repositório e execute primeiro `pod
 
 ## Requerimentos
 
-iOS 8.0 ou superior
+iOS 8.0 ou superior.
 
 ## Instalação
 links_Aplicativos está disponível no [CocoaPods](https://cocoapods.org) basta adicionar uma das seguintes linhas ao seu Podfile:
@@ -32,17 +32,17 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 ## Swift
 
 
-importar Módulo
+importar Módulo.
 
 ````Swift
 import links_Aplicativos
 ````
 
-Estender a Classe
+Estender a Classe.
 ````Swift
 let linkAplicativos = LinksAplicativos()
 ````
-Usar Metodos
+Usar Metodos.
 ````Swift
 linkAplicativos.abrirPaginaWeb("url")
 ````
@@ -64,18 +64,18 @@ linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 ## Objective-C
 
-Importar Módulo
+Importar Módulo.
 
 ````Objective-C
 @import links_Aplicativos;
 ````
 
-Estender Classe
+Estender Classe.
 
 ````Objective-C
 LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc]init];
 ````
-Usar Metodos
+Usar Metodos.
 
 ````Objective-C
 [linksAplicativos abrirPaginaWeb:@"url"];
