@@ -1,29 +1,46 @@
 # links_Aplicativos
 
-[![CI Status](https://img.shields.io/travis/cortezvinicius/links_Aplicativos.svg?style=flat)](https://travis-ci.org/cortezvinicius/links_Aplicativos)
 [![Version](https://img.shields.io/cocoapods/v/links_Aplicativos.svg?style=flat)](https://cocoapods.org/pods/links_Aplicativos)
 [![License](https://img.shields.io/cocoapods/l/links_Aplicativos.svg?style=flat)](https://cocoapods.org/pods/links_Aplicativos)
 [![Platform](https://img.shields.io/cocoapods/p/links_Aplicativos.svg?style=flat)](https://cocoapods.org/pods/links_Aplicativos)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Para executar o projeto de exemplo, clone o repositório e execute primeiro `pod install` no diretório exmple.
 
-## Requirements
+## Requerimentos
 
-## Installation
+iOS 8.0 ou superior
 
-links_Aplicativos is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Instalação
+links_Aplicativos está disponível no [CocoaPods](https://cocoapods.org) basta adicionar a seguinte linha ao seu Podfile:
 
 ```ruby
 pod 'links_Aplicativos'
 ```
 
-## Author
+## Como Usar
 
-cortezvinicius, cortezvinicius881@gmail.com
 
-## License
+  * [Swift](#swift)
+  * [Objective-C](#obj-C)
 
-links_Aplicativos is available under the MIT license. See the LICENSE file for more info.
+# Swift
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deu certo
