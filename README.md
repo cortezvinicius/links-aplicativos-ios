@@ -32,7 +32,7 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 # Swift
 
 
-extender a Classe
+estender a Classe
 ````Swift
 let linkAplicativos = LinksAplicativos()
 ````
@@ -58,7 +58,7 @@ linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 # Objective-C
 
-Entender Classe
+Estender Classe
 
 ````Objective-C
 LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc]init];
