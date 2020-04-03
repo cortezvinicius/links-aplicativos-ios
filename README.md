@@ -96,3 +96,7 @@ Usar Metodos.
 ## Author
 
 Vinicius Cortez, [cortezvinicius881@gmail.com](mailto://)
+
+## License
+
+[license](https://github.com/cortezvinicius/links-aplicativos-ios/blob/master/LICENSE)
