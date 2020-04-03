@@ -50,8 +50,21 @@ linkAplicativos.abrirPaginaWeb("url")
 linkAplicativos.abrirWhatsapp("numero", "mensagem")
 
 ````
+
+````Swift
+
 linkAplicativos.abrirEmail("email", "titulo", "texto")
+
+````
+
+````Swift
+
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
+
+````
+
+````Swift
+
 linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 # Objective-C
