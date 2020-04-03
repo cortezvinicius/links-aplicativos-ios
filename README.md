@@ -13,11 +13,14 @@ Para executar o projeto de exemplo, clone o repositório e execute primeiro `pod
 iOS 8.0 ou superior
 
 ## Instalação
-links_Aplicativos está disponível no [CocoaPods](https://cocoapods.org) basta adicionar a seguinte linha ao seu Podfile:
+links_Aplicativos está disponível no [CocoaPods](https://cocoapods.org) basta adicionar uma das seguintes linhas ao seu Podfile:
 
 ```ruby
 pod 'links_Aplicativos'
 ```
+````
+pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplicativos-ios.git'
+````
 
 ## Como Usar
 
@@ -25,25 +28,22 @@ pod 'links_Aplicativos'
   * [Swift](#swift)
   * [Objective-C](#obj-C)
 
-deu certo
-deu certo
-deu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certodeu certo
-# Swift
+
+## Swift
 
 
+extender a Classe
+````Swift
 
+let linkAplicativos = LinksAplicativos()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-deu certo
+````
+Usar Metodos
+````Swift
+linkAplicativos.abrirPaginaWeb("url")
+linkAplicativos.abrirWhatsapp("numero", "mensagem")
+linkAplicativos.abrirEmail("email", "titulo", "texto")
+linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
+linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
+````
+## Objective-C
