@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/links_Aplicativos.svg?style=flat)](https://cocoapods.org/pods/links_Aplicativos)
 [![Platform](https://img.shields.io/cocoapods/p/links_Aplicativos.svg?style=flat)](https://cocoapods.org/pods/links_Aplicativos)
 
-## Example
+## Examplo
 
 Para executar o projeto de exemplo, clone o repositório e execute primeiro `pod install` no diretório exmple.
 
