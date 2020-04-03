@@ -18,12 +18,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc] init];
+    [linksAplicativos abrirMapas:@"Teste" :@"-200" :@"300" :true];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+   
 }
 
 @end

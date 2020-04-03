@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import links_Aplicativos;
 
 @interface LINKSAPLICATIVOSViewController : UIViewController
 

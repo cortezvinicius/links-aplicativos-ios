@@ -1,5 +1,5 @@
 PODS:
-  - links_Aplicativos (0.1.0)
+  - links_Aplicativos (1.1.0)
 
 DEPENDENCIES:
   - links_Aplicativos (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  links_Aplicativos: 6d7ff66d57de6d81d0d048c3ffcf67353516e924
+  links_Aplicativos: e76a50e47b6433cbcd0135a45b7e01b432a51bf8
 
-PODFILE CHECKSUM: 8fe7e478bea60a5cb250b4aefad4b114e177bbac
+PODFILE CHECKSUM: 4f7c97659e9723df622dce140c9f5a440aad77fd
 
 COCOAPODS: 1.9.1

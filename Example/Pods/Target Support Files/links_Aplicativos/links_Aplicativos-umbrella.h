@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LinksAplicativos.h"
 
 FOUNDATION_EXPORT double links_AplicativosVersionNumber;
 FOUNDATION_EXPORT const unsigned char links_AplicativosVersionString[];
