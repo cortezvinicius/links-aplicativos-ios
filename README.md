@@ -93,4 +93,5 @@ Usar Metodos.
 ````Objective-C
 [linksAplicativos abrirEmail:@"email" :@"titulo" :@"texto"];
 ````
-
+##Author
+Vinicius Cortez, [cortezvinicius881@gmail.com](mail://)
