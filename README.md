@@ -32,7 +32,13 @@ pod 'links_Aplicativos', :git => 'https://github.com/cortezvinicius/links-aplica
 # Swift
 
 
-estender a Classe
+importar Módulo
+
+````Swift
+import links_Aplicativos
+````
+
+Estender a Classe
 ````Swift
 let linkAplicativos = LinksAplicativos()
 ````
@@ -58,12 +64,18 @@ linkAplicativos.abrirChamadaTelefone("numero telefone desejado")
 ````
 # Objective-C
 
+Importar Módulo
+
+````Objective-C
+@import links_Aplicativos;
+````
+
 Estender Classe
 
 ````Objective-C
 LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc]init];
 ````
-usar Metodos
+Usar Metodos
 
 ````Objective-C
 [linksAplicativos abrirPaginaWeb:@"url"];
