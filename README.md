@@ -56,11 +56,7 @@ linkAplicativos.abrirEmail("email", "titulo", "texto")
 ````
 
 ````Swift
-<<<<<<< HEAD
-linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude", true) //Caso false não terá sporte ao google maps
-=======
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
->>>>>>> 5d209eaaeeb22e3f6cc417610c21c09b640673a0
 ````
 
 ````Swift
