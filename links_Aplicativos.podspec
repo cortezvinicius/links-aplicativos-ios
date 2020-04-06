@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'links_Aplicativos'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Biblioteca que permite usar recursos disponíveis no iOS.'
   s.homepage         = 'https://github.com/cortezvinicius/links-aplicativos-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
