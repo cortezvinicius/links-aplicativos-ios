@@ -92,11 +92,7 @@ Usar Metodos.
 [linksAplicativos abrirWhatsapp:@"numero" :@"texto"];
 ````
 ````Objective-C
-<<<<<<< HEAD
-[linksAplicativos abrirMapas:@"Teste" :@"latitude" :@"longitude"];
-=======
 [linksAplicativos abrirMapas:@"nome local" :@"latitude" :@"longitude"];
->>>>>>> 5d209eaaeeb22e3f6cc417610c21c09b640673a0
 ````
 ````Objective-C
 [linksAplicativos abrirEmail:@"email" :@"titulo" :@"texto"];
