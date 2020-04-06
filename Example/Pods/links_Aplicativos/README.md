@@ -56,11 +56,7 @@ linkAplicativos.abrirEmail("email", "titulo", "texto")
 ````
 
 ````Swift
-<<<<<<< HEAD
 linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude", true) //Caso false não terá sporte ao google maps
-=======
-linkAplicativos.abrirMapas("nome Local", "latitude", "Longitude")
->>>>>>> 5d209eaaeeb22e3f6cc417610c21c09b640673a0
 ````
 
 ````Swift
@@ -92,11 +88,7 @@ Usar Metodos.
 [linksAplicativos abrirWhatsapp:@"numero" :@"texto"];
 ````
 ````Objective-C
-<<<<<<< HEAD
-[linksAplicativos abrirMapas:@"Teste" :@"latitude" :@"longitude"];
-=======
-[linksAplicativos abrirMapas:@"nome local" :@"latitude" :@"longitude"];
->>>>>>> 5d209eaaeeb22e3f6cc417610c21c09b640673a0
+[linksAplicativos abrirMapas:@"Teste" :@"latitude" :@"longitude" :true];//Caso false não terá sporte ao google maps
 ````
 ````Objective-C
 [linksAplicativos abrirEmail:@"email" :@"titulo" :@"texto"];

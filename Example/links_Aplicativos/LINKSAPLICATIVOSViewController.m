@@ -25,7 +25,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     LinksAplicativos *linksAplicativos = [[LinksAplicativos alloc] init];
-    [linksAplicativos abrirMapas:@"Teste" :@"-200" :@"300" :true];
+    [linksAplicativos abrirMapas:@"Teste" :@"-200" :@"300"];
 }
 
 

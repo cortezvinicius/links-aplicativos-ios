@@ -16,7 +16,7 @@
 -(void) abrirPaginaWeb:(NSString *)url;
 -(void) abrirChamadaTelefone: (NSString *)telefone;
 -(void) abrirWhatsapp: (NSString *)whatsapp: (NSString *)mensagem;
--(void) abrirMapas:(NSString *)nomeLocal:(NSString *) latitude:(NSString *)longitude;
+-(void) abrirMapas:(NSString *)nomeLocal:(NSString *) latitude:(NSString *)longitude:(bool *)suporteGoogleMaps;
 -(void)abrirEmail:(NSString *)email:(NSString *)titulo: (NSString *) texto;
 
 @end

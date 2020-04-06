@@ -43,65 +43,52 @@
     //NSLog(url);
 }
 
--(void) abrirMapas:(NSString *)nomeLocal:(NSString *) latitude:(NSString *)longitude:(bool *)suporteGoogleMaps
+-(void) abrirMapas:(NSString *)nomeLocal:(NSString *) latitude:(NSString *)longitude
 {
-    if(suporteGoogleMaps == true)
+    
+    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"comgooglemaps://"]] == true)
     {
-        if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"comgooglemaps://"]] == true)
-        {
-            UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Traçar Rota" message:@"Você deseja abrir com o Apple Maps ou Google Maps ?" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Traçar Rota" message:@"Você deseja abrir com o Apple Maps ou Google Maps ?" preferredStyle:UIAlertControllerStyleAlert];
             
             
             
-            UIAlertAction* googleMaps = [UIAlertAction actionWithTitle:@"Google Maps" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                NSString *url = @"comgooglemaps://?saddr=&daddr=";
-                       url = [url stringByAppendingString: latitude];
-                       url = [url stringByAppendingString: @","];
-                       url = [url stringByAppendingString:longitude];
-                       url = [url stringByAppendingString:@"&directionsmode=driving"];
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-            }];
-            UIAlertAction* appleMaps = [UIAlertAction actionWithTitle:@"Apple Maps" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        UIAlertAction* googleMaps = [UIAlertAction actionWithTitle:@"Google Maps" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            NSString *url = @"comgooglemaps://?saddr=&daddr=";
+                    url = [url stringByAppendingString: latitude];
+                    url = [url stringByAppendingString: @","];
+                    url = [url stringByAppendingString:longitude];
+                    url = [url stringByAppendingString:@"&directionsmode=driving"];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+        }];
+        UIAlertAction* appleMaps = [UIAlertAction actionWithTitle:@"Apple Maps" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 
                 
-                double latitudeDouble = [latitude doubleValue];
-                double longitdeDouble = [longitude doubleValue];
-                
-                MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(latitudeDouble, longitdeDouble) addressDictionary:nil];
-                MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
-                [mapItem setName: nomeLocal];
-                NSDictionary *options = @{MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving};
-                [mapItem openInMapsWithLaunchOptions:options];
-                
-                
-            }];
-            UIAlertAction* cancelar = [UIAlertAction actionWithTitle:@"Cancelar" style:UIAlertActionStyleCancel handler:nil];
-            
-            
-            [alert addAction:appleMaps];
-            [alert addAction:googleMaps];
-            [alert addAction:cancelar];
-            
-            
-            
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:true completion:nil];
-            
-            //[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
-        }else
-        {
             double latitudeDouble = [latitude doubleValue];
             double longitdeDouble = [longitude doubleValue];
-            
+                
             MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(latitudeDouble, longitdeDouble) addressDictionary:nil];
             MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
             [mapItem setName: nomeLocal];
             NSDictionary *options = @{MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving};
             [mapItem openInMapsWithLaunchOptions:options];
-        }
+                
+                
+        }];
+        UIAlertAction* cancelar = [UIAlertAction actionWithTitle:@"Cancelar" style:UIAlertActionStyleCancel handler:nil];
+            
+            
+        [alert addAction:appleMaps];
+        [alert addAction:googleMaps];
+        [alert addAction:cancelar];
+            
+            
+            
+        [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:true completion:nil];
+        //[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
     }else
     {
         double latitudeDouble = [latitude doubleValue];
-        double longitdeDouble = [longitude doubleValue];
+        double longitdeDouble = [longitude doubleValue]; 
         MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(latitudeDouble, longitdeDouble) addressDictionary:nil];
         MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
         [mapItem setName: nomeLocal];
